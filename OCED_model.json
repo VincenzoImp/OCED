@@ -1,0 +1,307 @@
+{
+    "event": [
+        {
+            "event_id": 0,
+            "event_type": "event_type",
+            "event_time": "2023-11-30T18:50:17.842339"
+        },
+        {
+            "event_id": 1,
+            "event_type": "event_type",
+            "event_time": "2023-11-30T18:50:17.888915"
+        },
+        {
+            "event_id": 2,
+            "event_type": "event_type",
+            "event_time": "2023-11-30T18:50:17.902170"
+        }
+    ],
+    "event_type": [
+        {
+            "event_type": "event_type"
+        }
+    ],
+    "event_time": [
+        {
+            "event_time": "2023-11-30T18:50:17.842339"
+        },
+        {
+            "event_time": "2023-11-30T18:50:17.888915"
+        },
+        {
+            "event_time": "2023-11-30T18:50:17.902170"
+        }
+    ],
+    "event_attribute_name": [
+        {
+            "event_attribute_name": "event_attribute_name1"
+        },
+        {
+            "event_attribute_name": "event_attribute_name2"
+        }
+    ],
+    "event_attribute_value": [
+        {
+            "event_id": 0,
+            "event_attribute_name": "event_attribute_name1",
+            "event_attribute_value": "event_attribute_value1"
+        },
+        {
+            "event_id": 0,
+            "event_attribute_name": "event_attribute_name2",
+            "event_attribute_value": "event_attribute_value2"
+        }
+    ],
+    "object": [
+        {
+            "object_id": "object_id1",
+            "object_type": "object_type1",
+            "object_existency": true
+        },
+        {
+            "object_id": "object_id2",
+            "object_type": "object_type2",
+            "object_existency": true
+        }
+    ],
+    "object_type": [
+        {
+            "object_type": "object_type1"
+        },
+        {
+            "object_type": "object_type2"
+        }
+    ],
+    "object_attribute_name": [
+        {
+            "object_attribute_name": "object_attribute_name1"
+        },
+        {
+            "object_attribute_name": "object_attribute_name2"
+        },
+        {
+            "object_attribute_name": "object_attribute_name3"
+        }
+    ],
+    "object_attribute_value": [
+        {
+            "object_attribute_value_id": "object_attribute_value_id1",
+            "object_id": "object_id1",
+            "object_attribute_name": "object_attribute_name1",
+            "object_attribute_value": "object_attribute_value1",
+            "object_attribute_value_existency": true
+        },
+        {
+            "object_attribute_value_id": "object_attribute_value_id2",
+            "object_id": "object_id1",
+            "object_attribute_name": "object_attribute_name2",
+            "object_attribute_value": "object_attribute_value2",
+            "object_attribute_value_existency": true
+        },
+        {
+            "object_attribute_value_id": "object_attribute_value_id3",
+            "object_id": "object_id1",
+            "object_attribute_name": "object_attribute_name3",
+            "object_attribute_value": "object_attribute_value3",
+            "object_attribute_value_existency": true
+        },
+        {
+            "object_attribute_value_id": "object_attribute_value_id1",
+            "object_id": "object_id1",
+            "object_attribute_name": "object_attribute_name1",
+            "object_attribute_value": "object_attribute_value1",
+            "object_attribute_value_existency": false
+        }
+    ],
+    "object_relation": [
+        {
+            "object_relation_id": "object_relation_id1",
+            "from_object_id": "object_id1",
+            "to_object_id": "object_id2",
+            "object_relation_type": "object_relation_type1",
+            "object_relation_existency": true
+        }
+    ],
+    "object_relation_type": [
+        {
+            "object_relation_type": "object_relation_type1"
+        }
+    ],
+    "event_x_object": [
+        {
+            "event_id": 0,
+            "object_id": "object_id1",
+            "qualifier_type": "CREATE",
+            "qualifier_index": 0
+        },
+        {
+            "event_id": 2,
+            "object_id": "object_id1",
+            "qualifier_type": "INVOLVE",
+            "qualifier_index": 0
+        },
+        {
+            "event_id": 2,
+            "object_id": "object_id2",
+            "qualifier_type": "CREATE",
+            "qualifier_index": 1
+        }
+    ],
+    "event_x_object_attribute_value": [
+        {
+            "event_id": 0,
+            "object_attribute_value_id": "object_attribute_value_id1",
+            "qualifier_type": "CREATE",
+            "qualifier_index": 1
+        },
+        {
+            "event_id": 0,
+            "object_attribute_value_id": "object_attribute_value_id2",
+            "qualifier_type": "CREATE",
+            "qualifier_index": 2
+        },
+        {
+            "event_id": 0,
+            "object_attribute_value_id": "object_attribute_value_id3",
+            "qualifier_type": "CREATE",
+            "qualifier_index": 3
+        },
+        {
+            "event_id": 1,
+            "object_attribute_value_id": "object_attribute_value_id1",
+            "qualifier_type": "DELETE",
+            "qualifier_index": 0
+        }
+    ],
+    "event_x_object_relation": [
+        {
+            "event_id": 2,
+            "object_relation_id": "object_relation_id1",
+            "qualifier_type": "CREATE",
+            "qualifier_index": 2
+        }
+    ],
+    "log": {
+        "0": [
+            {
+                "qualifier": "create_object",
+                "arguments": {
+                    "object_id": "object_id1",
+                    "object_type": "object_type1"
+                }
+            },
+            {
+                "qualifier": "create_object_attribute_value",
+                "arguments": {
+                    "object_attribute_value_id": "object_attribute_value_id1",
+                    "object_id": "object_id1",
+                    "object_attribute_name": "object_attribute_name1",
+                    "object_attribute_value": "object_attribute_value1"
+                }
+            },
+            {
+                "qualifier": "create_object_attribute_value",
+                "arguments": {
+                    "object_attribute_value_id": "object_attribute_value_id2",
+                    "object_id": "object_id1",
+                    "object_attribute_name": "object_attribute_name2",
+                    "object_attribute_value": "object_attribute_value2"
+                }
+            },
+            {
+                "qualifier": "create_object_attribute_value",
+                "arguments": {
+                    "object_attribute_value_id": "object_attribute_value_id3",
+                    "object_id": "object_id1",
+                    "object_attribute_name": "object_attribute_name3",
+                    "object_attribute_value": "object_attribute_value3"
+                }
+            }
+        ],
+        "1": [
+            {
+                "qualifier": "delete_object_attribute_value",
+                "arguments": {
+                    "object_attribute_value_id": "object_attribute_value_id1"
+                }
+            }
+        ],
+        "2": [
+            {
+                "qualifier": "involve_object",
+                "arguments": {
+                    "object_id": "object_id1"
+                }
+            },
+            {
+                "qualifier": "create_object",
+                "arguments": {
+                    "object_id": "object_id2",
+                    "object_type": "object_type2"
+                }
+            },
+            {
+                "qualifier": "create_object_relation",
+                "arguments": {
+                    "object_relation_id": "object_relation_id1",
+                    "from_object_id": "object_id1",
+                    "to_object_id": "object_id2",
+                    "object_relation_type": "object_relation_type1"
+                }
+            }
+        ]
+    },
+    "current_state": {
+        "object": {
+            "object_id1": {
+                "type": "object_type1",
+                "existency": true,
+                "object_relation_ids": [
+                    "object_relation_id1"
+                ],
+                "object_attribute_value_ids": [
+                    "object_attribute_value_id1",
+                    "object_attribute_value_id2",
+                    "object_attribute_value_id3"
+                ]
+            },
+            "object_id2": {
+                "type": "object_type2",
+                "existency": true,
+                "object_relation_ids": [
+                    "object_relation_id1"
+                ],
+                "object_attribute_value_ids": []
+            }
+        },
+        "object_relation": {
+            "object_relation_id1": {
+                "type": "object_relation_type1",
+                "existency": true,
+                "from_object_id": "object_id1",
+                "to_object_id": "object_id2"
+            }
+        },
+        "object_attribute_value": {
+            "object_attribute_value_id1": {
+                "name": "object_attribute_name1",
+                "value": "object_attribute_value1",
+                "existency": false,
+                "object_id": "object_id1"
+            },
+            "object_attribute_value_id2": {
+                "name": "object_attribute_name2",
+                "value": "object_attribute_value2",
+                "existency": true,
+                "object_id": "object_id1"
+            },
+            "object_attribute_value_id3": {
+                "name": "object_attribute_name3",
+                "value": "object_attribute_value3",
+                "existency": true,
+                "object_id": "object_id1"
+            }
+        }
+    },
+    "event_counter": 3
+}

@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='utf-8'?>
+<OCED>
+	<event>
+		<row>
+			<index>0</index>
+			<event_id>0</event_id>
+			<event_type>event_type</event_type>
+			<event_time>2023-11-30T18:50:17.842339</event_time>
+		</row>
+		<row>
+			<index>1</index>
+			<event_id>1</event_id>
+			<event_type>event_type</event_type>
+			<event_time>2023-11-30T18:50:17.888915</event_time>
+		</row>
+		<row>
+			<index>2</index>
+			<event_id>2</event_id>
+			<event_type>event_type</event_type>
+			<event_time>2023-11-30T18:50:17.902170</event_time>
+		</row>
+	</event>
+	<event_type>
+		<row>
+			<index>0</index>
+			<event_type>event_type</event_type>
+		</row>
+	</event_type>
+	<event_time>
+		<row>
+			<index>0</index>
+			<event_time>2023-11-30T18:50:17.842339</event_time>
+		</row>
+		<row>
+			<index>1</index>
+			<event_time>2023-11-30T18:50:17.888915</event_time>
+		</row>
+		<row>
+			<index>2</index>
+			<event_time>2023-11-30T18:50:17.902170</event_time>
+		</row>
+	</event_time>
+	<event_attribute_name>
+		<row>
+			<index>0</index>
+			<event_attribute_name>event_attribute_name1</event_attribute_name>
+		</row>
+		<row>
+			<index>1</index>
+			<event_attribute_name>event_attribute_name2</event_attribute_name>
+		</row>
+	</event_attribute_name>
+	<event_attribute_value>
+		<row>
+			<index>0</index>
+			<event_id>0</event_id>
+			<event_attribute_name>event_attribute_name1</event_attribute_name>
+			<event_attribute_value>event_attribute_value1</event_attribute_value>
+		</row>
+		<row>
+			<index>1</index>
+			<event_id>0</event_id>
+			<event_attribute_name>event_attribute_name2</event_attribute_name>
+			<event_attribute_value>event_attribute_value2</event_attribute_value>
+		</row>
+	</event_attribute_value>
+	<object>
+		<row>
+			<index>0</index>
+			<object_id>object_id1</object_id>
+			<object_type>object_type1</object_type>
+			<object_existency>True</object_existency>
+		</row>
+		<row>
+			<index>1</index>
+			<object_id>object_id2</object_id>
+			<object_type>object_type2</object_type>
+			<object_existency>True</object_existency>
+		</row>
+	</object>
+	<object_type>
+		<row>
+			<index>0</index>
+			<object_type>object_type1</object_type>
+		</row>
+		<row>
+			<index>1</index>
+			<object_type>object_type2</object_type>
+		</row>
+	</object_type>
+	<object_attribute_name>
+		<row>
+			<index>0</index>
+			<object_attribute_name>object_attribute_name1</object_attribute_name>
+		</row>
+		<row>
+			<index>1</index>
+			<object_attribute_name>object_attribute_name2</object_attribute_name>
+		</row>
+		<row>
+			<index>2</index>
+			<object_attribute_name>object_attribute_name3</object_attribute_name>
+		</row>
+	</object_attribute_name>
+	<object_attribute_value>
+		<row>
+			<index>0</index>
+			<object_attribute_value_id>object_attribute_value_id1</object_attribute_value_id>
+			<object_id>object_id1</object_id>
+			<object_attribute_name>object_attribute_name1</object_attribute_name>
+			<object_attribute_value>object_attribute_value1</object_attribute_value>
+			<object_attribute_value_existency>True</object_attribute_value_existency>
+		</row>
+		<row>
+			<index>1</index>
+			<object_attribute_value_id>object_attribute_value_id2</object_attribute_value_id>
+			<object_id>object_id1</object_id>
+			<object_attribute_name>object_attribute_name2</object_attribute_name>
+			<object_attribute_value>object_attribute_value2</object_attribute_value>
+			<object_attribute_value_existency>True</object_attribute_value_existency>
+		</row>
+		<row>
+			<index>2</index>
+			<object_attribute_value_id>object_attribute_value_id3</object_attribute_value_id>
+			<object_id>object_id1</object_id>
+			<object_attribute_name>object_attribute_name3</object_attribute_name>
+			<object_attribute_value>object_attribute_value3</object_attribute_value>
+			<object_attribute_value_existency>True</object_attribute_value_existency>
+		</row>
+		<row>
+			<index>3</index>
+			<object_attribute_value_id>object_attribute_value_id1</object_attribute_value_id>
+			<object_id>object_id1</object_id>
+			<object_attribute_name>object_attribute_name1</object_attribute_name>
+			<object_attribute_value>object_attribute_value1</object_attribute_value>
+			<object_attribute_value_existency>False</object_attribute_value_existency>
+		</row>
+	</object_attribute_value>
+	<object_relation>
+		<row>
+			<index>0</index>
+			<object_relation_id>object_relation_id1</object_relation_id>
+			<from_object_id>object_id1</from_object_id>
+			<to_object_id>object_id2</to_object_id>
+			<object_relation_type>object_relation_type1</object_relation_type>
+			<object_relation_existency>True</object_relation_existency>
+		</row>
+	</object_relation>
+	<object_relation_type>
+		<row>
+			<index>0</index>
+			<object_relation_type>object_relation_type1</object_relation_type>
+		</row>
+	</object_relation_type>
+	<event_x_object>
+		<row>
+			<index>0</index>
+			<event_id>0</event_id>
+			<object_id>object_id1</object_id>
+			<qualifier_type>CREATE</qualifier_type>
+			<qualifier_index>0</qualifier_index>
+		</row>
+		<row>
+			<index>1</index>
+			<event_id>2</event_id>
+			<object_id>object_id1</object_id>
+			<qualifier_type>INVOLVE</qualifier_type>
+			<qualifier_index>0</qualifier_index>
+		</row>
+		<row>
+			<index>2</index>
+			<event_id>2</event_id>
+			<object_id>object_id2</object_id>
+			<qualifier_type>CREATE</qualifier_type>
+			<qualifier_index>1</qualifier_index>
+		</row>
+	</event_x_object>
+	<event_x_object_attribute_value>
+		<row>
+			<index>0</index>
+			<event_id>0</event_id>
+			<object_attribute_value_id>object_attribute_value_id1</object_attribute_value_id>
+			<qualifier_type>CREATE</qualifier_type>
+			<qualifier_index>1</qualifier_index>
+		</row>
+		<row>
+			<index>1</index>
+			<event_id>0</event_id>
+			<object_attribute_value_id>object_attribute_value_id2</object_attribute_value_id>
+			<qualifier_type>CREATE</qualifier_type>
+			<qualifier_index>2</qualifier_index>
+		</row>
+		<row>
+			<index>2</index>
+			<event_id>0</event_id>
+			<object_attribute_value_id>object_attribute_value_id3</object_attribute_value_id>
+			<qualifier_type>CREATE</qualifier_type>
+			<qualifier_index>3</qualifier_index>
+		</row>
+		<row>
+			<index>3</index>
+			<event_id>1</event_id>
+			<object_attribute_value_id>object_attribute_value_id1</object_attribute_value_id>
+			<qualifier_type>DELETE</qualifier_type>
+			<qualifier_index>0</qualifier_index>
+		</row>
+	</event_x_object_attribute_value>
+	<event_x_object_relation>
+		<row>
+			<index>0</index>
+			<event_id>2</event_id>
+			<object_relation_id>object_relation_id1</object_relation_id>
+			<qualifier_type>CREATE</qualifier_type>
+			<qualifier_index>2</qualifier_index>
+		</row>
+	</event_x_object_relation>
+	<log>
+		<event event_id="0">
+			<qualifier qualifier="create_object">
+				<arguments>
+					<argument name="object_id">object_id1</argument>
+					<argument name="object_type">object_type1</argument>
+				</arguments>
+			</qualifier>
+			<qualifier qualifier="create_object_attribute_value">
+				<arguments>
+					<argument name="object_attribute_value_id">object_attribute_value_id1</argument>
+					<argument name="object_id">object_id1</argument>
+					<argument name="object_attribute_name">object_attribute_name1</argument>
+					<argument name="object_attribute_value">object_attribute_value1</argument>
+				</arguments>
+			</qualifier>
+			<qualifier qualifier="create_object_attribute_value">
+				<arguments>
+					<argument name="object_attribute_value_id">object_attribute_value_id2</argument>
+					<argument name="object_id">object_id1</argument>
+					<argument name="object_attribute_name">object_attribute_name2</argument>
+					<argument name="object_attribute_value">object_attribute_value2</argument>
+				</arguments>
+			</qualifier>
+			<qualifier qualifier="create_object_attribute_value">
+				<arguments>
+					<argument name="object_attribute_value_id">object_attribute_value_id3</argument>
+					<argument name="object_id">object_id1</argument>
+					<argument name="object_attribute_name">object_attribute_name3</argument>
+					<argument name="object_attribute_value">object_attribute_value3</argument>
+				</arguments>
+			</qualifier>
+		</event>
+		<event event_id="1">
+			<qualifier qualifier="delete_object_attribute_value">
+				<arguments>
+					<argument name="object_attribute_value_id">object_attribute_value_id1</argument>
+				</arguments>
+			</qualifier>
+		</event>
+		<event event_id="2">
+			<qualifier qualifier="involve_object">
+				<arguments>
+					<argument name="object_id">object_id1</argument>
+				</arguments>
+			</qualifier>
+			<qualifier qualifier="create_object">
+				<arguments>
+					<argument name="object_id">object_id2</argument>
+					<argument name="object_type">object_type2</argument>
+				</arguments>
+			</qualifier>
+			<qualifier qualifier="create_object_relation">
+				<arguments>
+					<argument name="object_relation_id">object_relation_id1</argument>
+					<argument name="from_object_id">object_id1</argument>
+					<argument name="to_object_id">object_id2</argument>
+					<argument name="object_relation_type">object_relation_type1</argument>
+				</arguments>
+			</qualifier>
+		</event>
+	</log>
+	<current_state>
+		<object object_id="object_id1">
+			<type>object_type1</type>
+			<existency>True</existency>
+			<object_relation_ids>
+				<object_relation_id>object_relation_id1</object_relation_id>
+			</object_relation_ids>
+			<object_attribute_value_ids>
+				<object_attribute_value_id>object_attribute_value_id1</object_attribute_value_id>
+				<object_attribute_value_id>object_attribute_value_id2</object_attribute_value_id>
+				<object_attribute_value_id>object_attribute_value_id3</object_attribute_value_id>
+			</object_attribute_value_ids>
+		</object>
+		<object object_id="object_id2">
+			<type>object_type2</type>
+			<existency>True</existency>
+			<object_relation_ids>
+				<object_relation_id>object_relation_id1</object_relation_id>
+			</object_relation_ids>
+			<object_attribute_value_ids />
+		</object>
+		<object_relation object_relation_id="object_relation_id1">
+			<from_object_id>object_id1</from_object_id>
+			<to_object_id>object_id2</to_object_id>
+			<type>object_relation_type1</type>
+			<existency>True</existency>
+		</object_relation>
+		<object_attribute_value object_attribute_value_id="object_attribute_value_id1">
+			<object_id>object_id1</object_id>
+			<name>object_attribute_name1</name>
+			<value>object_attribute_value1</value>
+			<existency>False</existency>
+		</object_attribute_value>
+		<object_attribute_value object_attribute_value_id="object_attribute_value_id2">
+			<object_id>object_id1</object_id>
+			<name>object_attribute_name2</name>
+			<value>object_attribute_value2</value>
+			<existency>True</existency>
+		</object_attribute_value>
+		<object_attribute_value object_attribute_value_id="object_attribute_value_id3">
+			<object_id>object_id1</object_id>
+			<name>object_attribute_name3</name>
+			<value>object_attribute_value3</value>
+			<existency>True</existency>
+		</object_attribute_value>
+	</current_state>
+	<event_counter>3</event_counter>
+</OCED>
